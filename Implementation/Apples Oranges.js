@@ -60,7 +60,7 @@ function main() {
     },obj);
     
     orange.forEach(function(c){
-        this['tot_oranges'] += c;
+        this['tot_oranges'] = this['tot_oranges'] + c;
     },obj);
     console.log(obj['tot_apples']);
     console.log(obj['tot_oranges']);
