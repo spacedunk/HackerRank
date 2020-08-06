@@ -4,10 +4,21 @@ using System.IO;
 using System.Linq;
 class Solution {
 
-    static int getTotalX(int[] a, int[] b) {
-        //Get Smallest value in set be.
-        //
+    static int getTotalX(int[] a, int[] b) 
+    {
+
     }
+
+    static int getLCM(int[] a)
+    {
+
+    }
+
+    static int getGCD(int[] a)
+    {
+
+    }
+    
 
     static void Main(String[] args) {
         string[] tokens_n = Console.ReadLine().Split(' ');
@@ -31,6 +42,4 @@ O(n log(n)) solution.
 1. find the LCM of all the integers of array A.
 2. find the GCD of all the integers of array B.
 3. Count the number of multiples of LCM that evenly divides the GCD.
-
-lcm in a = 2
-gcd of b = 
+*/
